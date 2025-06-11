@@ -1,0 +1,26 @@
+{
+  "name": "store_assistant",
+  "version": "1.0.0",
+  "description": "a store assistant webapp",
+  "main": "retrieval_chain.js",
+  "type": "module",
+  "scripts": {
+    "start": "node retrieval_chain.js"
+  },
+  "author": "Joseph Alumbugu",
+  "license": "MIT",
+  "dependencies": {
+    "@dqbd/tiktoken": "^1.0.17",
+    "@langchain/community": "^0.3.17",
+    "@langchain/core": "^0.3.20",
+    "@langchain/openai": "^0.3.14",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "d3-dsv": "^2.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "langchain": "^0.3.6",
+    "tiktoken": "^1.0.17",
+    "zod": "^3.23.8"
+  }
+}

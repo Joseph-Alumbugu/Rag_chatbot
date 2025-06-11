@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG Query Interface</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Massage Chair Query Interface</h1>
+        
+        <form id="query-form">
+            <textarea 
+                id="query-input" 
+                placeholder="Enter your query about massage chairs..."
+                rows="4"
+            ></textarea>
+            <div id="error-message" class="error-message"></div>
+            
+            <button type="submit">Submit Query</button>
+        </form>
+
+        <div id="loading" class="loading hidden">
+            Searching for results...
+        </div>
+
+        <div id="response-container" class="response-container hidden">
+            <h2>Response:</h2>
+            <div id="response-text"></div>
+        </div>
+
+        <div id="error-container" class="error-container hidden">
+            <h2>Error:</h2>
+            <p id="error-details"></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
